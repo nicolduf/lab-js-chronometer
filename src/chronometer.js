@@ -21,11 +21,12 @@ class Chronometer {
   }
 
   computeTwoDigitNumber(value) {
+    const str = value.toString();
      if (value < 10) {
-      return '0' + value;
+      return '0' + value.toString();
      }
      else {
-      return value;
+      return value.toString();
      }
   }
 
